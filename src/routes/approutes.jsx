@@ -7,10 +7,12 @@ import AdminDashboard from "../pages/admin/AdminDashboard"
 import UserLayout from "../layouts/UserLayout"
 import CoachLayout from "../layouts/CoachLayout"
 import AdminLayout from "../layouts/AdminLayout"
+import Register from "../pages/Register"
 function AppRoutes() {
  return (
  <BrowserRouter>
  <Routes>
+ <Route path="/registro" element={<Register />} />
  <Route path="/" element={<Home />} />
  <Route path="/login" element={<Login />} />
  <Route path="/user" element={<UserLayout />}>
