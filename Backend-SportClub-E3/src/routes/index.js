@@ -7,6 +7,6 @@ const router = Router();
 
 router.use('/auth', authRoutes);
 router.use('/users', userRoutes);
-router.use('/sport', sportRoutes);
+router.use('/sports', sportRoutes);
 
 module.exports = router;
